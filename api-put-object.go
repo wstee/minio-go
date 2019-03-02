@@ -26,9 +26,9 @@ import (
 	"runtime/debug"
 	"sort"
 
-	"github.com/minio/minio-go/pkg/encrypt"
-	"github.com/minio/minio-go/pkg/s3utils"
-	"golang.org/x/net/http/httpguts"
+	"github.com/golang/net/http/httpguts"
+	"github.com/wstee/minio-go/pkg/encrypt"
+	"github.com/wstee/minio-go/pkg/s3utils"
 )
 
 // PutObjectOptions represents options specified by user for PutObject call

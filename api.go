@@ -39,11 +39,11 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/net/publicsuffix"
+	"github.com/golang/net/publicsuffix"
 
-	"github.com/minio/minio-go/pkg/credentials"
-	"github.com/minio/minio-go/pkg/s3signer"
-	"github.com/minio/minio-go/pkg/s3utils"
+	"github.com/wstee/minio-go/pkg/credentials"
+	"github.com/wstee/minio-go/pkg/s3signer"
+	"github.com/wstee/minio-go/pkg/s3utils"
 )
 
 // Client implements Amazon S3 compatible methods.

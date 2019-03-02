@@ -24,9 +24,9 @@ import (
 	"os"
 	"path"
 
-	"github.com/minio/minio-go"
-	"github.com/minio/sio"
-	"golang.org/x/crypto/argon2"
+	"github.com/golang/crypto/argon2"
+	"github.com/wstee/minio-go"
+	"github.com/wstee/sio"
 )
 
 func main() {

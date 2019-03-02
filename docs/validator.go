@@ -31,7 +31,7 @@ import (
 	"github.com/a8m/mark"
 	"github.com/gernest/wow"
 	"github.com/gernest/wow/spin"
-	"github.com/minio/cli"
+	"github.com/wstee/cli"
 )
 
 func init() {

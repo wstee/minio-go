@@ -26,7 +26,7 @@ import (
 	"net/http"
 	"time"
 
-	"golang.org/x/net/http2"
+	"github.com/golang/net/http2"
 )
 
 // DefaultTransport - this default transport is similar to

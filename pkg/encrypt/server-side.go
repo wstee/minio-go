@@ -24,7 +24,7 @@ import (
 	"errors"
 	"net/http"
 
-	"golang.org/x/crypto/argon2"
+	"github.com/golang/crypto/argon2"
 )
 
 const (
